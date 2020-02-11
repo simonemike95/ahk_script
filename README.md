@@ -7,5 +7,5 @@ The "^Esc" shortcut minimizes the currently active window.
 
 
 ## Shortcut keys
-F_ = Function key number
+F_ = Function key number  
 ^Esc = ctrl + esc
