@@ -1,4 +1,5 @@
-SetTitleMatchMode,2
+SetTitleMatchMode, 2
+DetectHiddenWindows, On
 return
 
 #CommentFlag MEDIA KEYS
@@ -19,7 +20,14 @@ return
 ^Esc::WinMinimize, A
 return
 
-#CommentFlag This shortcut will open the existing window, or open a new one if none exist
+#CommentFlag These shortcuts will open the existing window, or open a new one if none exist
+F1::
+if WinExist("File Explorer")
+    WinActivate
+else
+    Run explorer.exe
+return
+
 F2::
 if WinExist("Mozilla Firefox")
     WinActivate
@@ -27,9 +35,11 @@ else
     Run firefox.exe
 return
 
-F1::
-if WinExist("Windows Powershell")
+#CommentFlag Does not currently work - when Spotify is playing, window title is artist name and song
+F4::
+if WinExist("Spotify")
     WinActivate
 else
-    Run powershell.exe
+    Run spotify.exe
 return
+
