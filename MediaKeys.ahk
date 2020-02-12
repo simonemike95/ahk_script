@@ -22,7 +22,7 @@ return
 
 #CommentFlag These shortcuts will open the existing window, or open a new one if none exist
 F1::
-if WinExist("File Explorer")
+if WinExist("This PC")
     WinActivate
 else
     Run explorer.exe
