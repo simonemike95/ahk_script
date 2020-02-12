@@ -35,9 +35,8 @@ else
     Run firefox.exe
 return
 
-#CommentFlag Does not currently work - when Spotify is playing, window title is artist name and song
 F4::
-if WinExist("Spotify")
+IfWinActive, ahk_exe spotify.exe
     WinActivate
 else
     Run spotify.exe
