@@ -9,7 +9,7 @@ The "^Esc" shortcut minimizes the currently active window.
 ## Shortcut keys
 F1 = Open File Explorer to "This PC"  
 F2 = Open Firefox  
-F4 = Open Spotify  
+F4 = Open Spotify (for best results, enable "close button minimizes to try" under Settings -> Advanced -> Startup and Window Behavior. Use the 'X' to close Spotify when not being used so that the hotkey can "reopen". It does not refocus if already open, even if it is open in the background.)  
 F5 = Skip back  
 F6 = Skip Forward  
 F7 = Play/Pause media  
