@@ -17,4 +17,4 @@ F9 = Mute sounds
 F10 = Decrease volume  
 F11 = Increase volume  
 ^Esc = ctrl + esc  
-^` = ctrl + `  
+^\` = ctrl + \`  
