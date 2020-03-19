@@ -42,3 +42,9 @@ else
     Run spotify.exe
 return
 
+^`::
+IfWinActive, ahk_exe powershell.exe
+    WinActivate
+else
+    Run spotify.exe
+return
